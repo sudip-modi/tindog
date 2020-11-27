@@ -1,0 +1,178 @@
+body{
+  font-family: 'Montserrat' , sans-serif;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  padding-bottom: 10rem;
+
+}
+
+h1 {
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-img {
+  transform: rotate(30deg);
+  width: 60%;
+  position: absolute;
+  right: 3%;
+  top: 30%;
+}
+
+/* nav bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu' , sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+#features{
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-divs{
+  text-align: center;
+  padding: 5%;
+}
+
+h2{
+font-family: 'Montserrat-Bold',sans-serif;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 1.5rem;
+}
+
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+
+}
+
+.testimonial-image{
+padding-right: 1rem;
+padding-top: 2rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+}
+
+/* press */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  padding-bottom: 3rem;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 5%;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+     .title-img{
+       position: static;
+       transform: rotate(0);
+       padding-right: 2rem;
+       padding-top: 1rem;
+       align-self: center;
+     }
+}
+
+/* cta */
+
+#cta{
+  font-family: 'Montserrat';
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 3rem 4rem;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.cta-button{
+  margin: 1.5rem 0.5rem;
+}
+
+.cta-heading{
+  font-size: 3rem;
+}
+
+/* footer */
+
+
+#footer{
+text-align: center;
+background-color: #fff;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+.footer-icon{
+  padding: 1rem;
+}
